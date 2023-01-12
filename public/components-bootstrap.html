@@ -1,0 +1,1231 @@
+<!doctype html>
+<html lang="en">
+
+  
+<!-- Mirrored from pipeline.mediumra.re/components-bootstrap.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jan 2023 14:24:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52115242-14"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-52115242-14');
+    </script>
+    <meta charset="utf-8">
+    <title>Pipeline Project Management Bootstrap Theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A project management Bootstrap theme by Medium Rare">
+    <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+
+  <body>
+
+    <div class="layout layout-nav-side">
+      <div class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+
+        <a class="navbar-brand" href="index.html">
+          <img alt="Pipeline" src="assets/img/logo.svg" />
+        </a>
+        <div class="d-flex align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-block d-lg-none ml-2">
+            <div class="dropdown">
+              <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a href="nav-side-user.html" class="dropdown-item">Profile</a>
+                <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
+                <a href="#" class="dropdown-item">Log Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse flex-column" id="navbar-collapse">
+          <ul class="navbar-nav d-lg-block">
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="index.html">Overview</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2">Pages</a>
+              <div id="submenu-2" class="collapse">
+                <ul class="nav nav-small flex-column">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages-app.html">App Pages</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages-utility.html">Utility Pages</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages-layouts.html">Layouts</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3">Components</a>
+              <div id="submenu-3" class="collapse">
+                <ul class="nav nav-small flex-column">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="components-bootstrap.html">Bootstrap</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="components-pipeline.html">Pipeline</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="documentation/index.html">Documentation</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="documentation/changelog.html">Changelog</a>
+
+            </li>
+
+          </ul>
+          <hr>
+          <div class="d-none d-lg-block w-100">
+            <span class="text-small text-muted">Quick Links</span>
+            <ul class="nav nav-small flex-column mt-2">
+              <li class="nav-item">
+                <a href="nav-side-team.html" class="nav-link">Team Overview</a>
+              </li>
+              <li class="nav-item">
+                <a href="nav-side-project.html" class="nav-link">Project</a>
+              </li>
+              <li class="nav-item">
+                <a href="nav-side-task.html" class="nav-link">Single Task</a>
+              </li>
+              <li class="nav-item">
+                <a href="nav-side-kanban-board.html" class="nav-link">Kanban Board</a>
+              </li>
+            </ul>
+            <hr>
+          </div>
+          <div>
+            <form>
+              <div class="input-group input-group-dark input-group-round">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">search</i>
+                  </span>
+                </div>
+                <input type="search" class="form-control form-control-dark" placeholder="Search" aria-label="Search app">
+              </div>
+            </form>
+            <div class="dropdown mt-2">
+              <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="newContentButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Add New
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Team</a>
+                <a class="dropdown-item" href="#">Project</a>
+                <a class="dropdown-item" href="#">Task</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-lg-block">
+          <div class="dropup">
+            <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
+            </a>
+            <div class="dropdown-menu">
+              <a href="nav-side-user.html" class="dropdown-item">Profile</a>
+              <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
+              <a href="#" class="dropdown-item">Log Out</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="main-container">
+
+        <div class="navbar bg-white breadcrumb-bar">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Overview</a>
+              </li>
+              <li class="breadcrumb-item"><a href="#">Components</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Bootstrap</li>
+            </ol>
+          </nav>
+
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-11">
+              <section class="py-4 py-lg-5">
+                <div class="mb-3 d-flex">
+                  <img alt="Pipeline" src="../seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png" class="avatar avatar-lg mr-1 rounded-0" />
+                  <div>
+                    <span class="badge badge-success">4.5.2</span>
+                  </div>
+                </div>
+                <h1 class="display-4 mb-3">Bootstrap Components</h1>
+                <p class="lead">In addition to the custom <a href="components-pipeline.html">Pipeline Components</a>, Pipeline includes support for all default Bootstrap 4. View all components at the official <a target="_blank" href="http://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap Documentation</a>
+                </p>
+              </section>
+              <div class="row">
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#alerts-modal">
+                      <img alt="Alerts" class="card-img-top" src="assets/img/components/alerts.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#alerts-modal">Alerts</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#badges-modal">
+                      <img alt="Badges" class="card-img-top" src="assets/img/components/badges.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#badges-modal">Badges</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#breadcrumb-modal">
+                      <img alt="Breadcrumb" class="card-img-top" src="assets/img/components/breadcrumb.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#breadcrumb-modal">Breadcrumb</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#buttons-modal">
+                      <img alt="Buttons" class="card-img-top" src="assets/img/components/buttons.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#buttons-modal">Buttons</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#cards-modal">
+                      <img alt="Cards" class="card-img-top" src="assets/img/components/cards.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#cards-modal">Cards</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#dropdowns-modal">
+                      <img alt="Dropdowns" class="card-img-top" src="assets/img/components/dropdowns.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#dropdowns-modal">Dropdowns</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#forms-modal">
+                      <img alt="Forms" class="card-img-top" src="assets/img/components/forms.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#forms-modal">Forms</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#input-group-modal">
+                      <img alt="Input Group" class="card-img-top" src="assets/img/components/input-group.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#input-group-modal">Input Group</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#list-group-modal">
+                      <img alt="List Group" class="card-img-top" src="assets/img/components/list-group.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#list-group-modal">List Group</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#navs-modal">
+                      <img alt="Navs" class="card-img-top" src="assets/img/components/navs.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#navs-modal">Navs</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#navbar-modal">
+                      <img alt="Navbar" class="card-img-top" src="assets/img/components/navbar.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#navbar-modal">Navbar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#progress-modal">
+                      <img alt="Progress" class="card-img-top" src="assets/img/components/progress.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#progress-modal">Progress</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#toasts-modal">
+                      <img alt="Toasts" class="card-img-top" src="assets/img/components/toasts.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#toasts-modal">Toasts</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                  <div class="card mb-3">
+                    <a href="#" data-toggle="modal" data-target="#tooltips-modal">
+                      <img alt="Tooltips" class="card-img-top" src="assets/img/components/tooltips.png">
+                    </a>
+                    <div class="card-body">
+                      <a class="card-title h6" href="#" data-toggle="modal" data-target="#tooltips-modal">Tooltips</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="alerts-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Alerts</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+              </div>
+              <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+              </div>
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="alert alert-info" role="alert">
+                A simple info alert—check it out!
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="alert alert-primary" role="alert"&gt;
+  A simple primary alert—check it out!
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Alerts component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/alerts">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="badges-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Badges</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Documentation and examples for badges, our small count and labeling component.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+              <button type="button" class="btn btn-primary">
+                Manage Projects
+                <span class="badge badge-light">4</span>
+              </button>
+              <span class="badge badge-success">Success</span>
+              <span class="badge badge-secondary">14</span>
+              <span class="badge badge-danger">Expired</span>
+              <span class="badge badge-warning">Due Soon</span>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;span class="badge badge-secondary"&gt;New&lt;/span&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Badges component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/badges">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="breadcrumb-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Breadcrumb</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <div class="navbar bg-white breadcrumb-bar">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="#">Library</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="navbar bg-white breadcrumb-bar"&gt;
+  &lt;nav aria-label="breadcrumb"&gt;
+    &lt;ol class="breadcrumb"&gt;
+      &lt;li class="breadcrumb-item"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="breadcrumb-item"&gt;&lt;a href="#"&gt;Library&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="breadcrumb-item active" aria-current="page"&gt;Data&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Breadcrumb component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/breadcrumb">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="buttons-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Buttons</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-light">Light</button>
+              <button type="button" class="btn btn-dark">Dark</button>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button type="button" class="btn btn-danger"&gt;Danger&lt;/button&gt;
+&lt;button type="button" class="btn btn-warning"&gt;Warning&lt;/button&gt;
+&lt;button type="button" class="btn btn-info"&gt;Info&lt;/button&gt;
+&lt;button type="button" class="btn btn-light"&gt;Light&lt;/button&gt;
+&lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
+&lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Buttons component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/buttons">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="cards-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cards</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
+              </p>
+
+              <div class="alert alert-warning" role="alert">
+                <p>Pipeline also supports multiple custom card types. View them on the <a href="components-pipeline.html">Pipeline Components</a> page</p>
+
+              </div>
+
+            </div>
+
+            <div class="component-demo">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="card"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Cards component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/cards">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="dropdowns-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Dropdowns</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="dropdown"&gt;
+    &lt;button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+      Dropdown button
+    &lt;/button&gt;
+    &lt;div class="dropdown-menu"&gt;
+      &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+      &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+      &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Dropdowns component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/dropdowns">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="forms-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Forms</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default form markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;form&gt;
+  &lt;div class="form-group"&gt;
+    &lt;label for="exampleInputEmail1"&gt;Email address&lt;/label&gt;
+    &lt;input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"&gt;
+    &lt;small id="emailHelp" class="form-text text-muted"&gt;We'll never share your email with anyone else.&lt;/small&gt;
+  &lt;/div&gt;
+  &lt;div class="form-group"&gt;
+    &lt;label for="exampleInputPassword1"&gt;Password&lt;/label&gt;
+    &lt;input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"&gt;
+  &lt;/div&gt;
+  &lt;div class="form-group form-check"&gt;
+    &lt;input type="checkbox" class="form-check-input" id="exampleCheck1"&gt;
+    &lt;label class="form-check-label" for="exampleCheck1"&gt;Check me out&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;button type="submit" class="btn btn-primary"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Forms component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/forms">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="input-group-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Input Group</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default Input Group markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <form>
+                <div class="input-group input-group-round">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="material-icons">email</i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                </div>
+              </form>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="input-group input-group-round"&gt;
+  &lt;div class="input-group-prepend"&gt;
+    &lt;span class="input-group-text"&gt;
+      &lt;i class="material-icons"&gt;email&lt;/i&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" &gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Input Group component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/input-group">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="list-group-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">List Group</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default List Group markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <ul class="list-group">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;ul class="list-group"&gt;
+  &lt;li class="list-group-item"&gt;Cras justo odio&lt;/li&gt;
+  &lt;li class="list-group-item"&gt;Dapibus ac facilisis in&lt;/li&gt;
+  &lt;li class="list-group-item"&gt;Morbi leo risus&lt;/li&gt;
+  &lt;li class="list-group-item"&gt;Porta ac consectetur ac&lt;/li&gt;
+  &lt;li class="list-group-item"&gt;Vestibulum at eros&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the List Group component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/list-group">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="navs-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Navs</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default Navs markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;ul class="nav nav-tabs"&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link active" href="#"&gt;Active&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav-item"&gt;
+    &lt;a class="nav-link disabled" href="#"&gt;Disabled&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Navs component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/navs">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="navbar-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Navbar</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default Navbar markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                  <img alt="Pipeline" src="assets/img/logo.svg" />
+                </a>
+                <div class="d-flex align-items-center">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-2" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="d-block d-lg-none ml-2">
+                    <div class="dropdown">
+                      <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="nav-side-user.html" class="dropdown-item">Profile</a>
+                        <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
+                        <a href="#" class="dropdown-item">Log Out</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="collapse navbar-collapse justify-content-between" id="navbar-collapse-2">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                  </ul>
+                  <div class="d-lg-flex align-items-center">
+                    <form class="form-inline my-lg-0 my-2">
+                      <div class="input-group input-group-dark input-group-round">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="material-icons">search</i>
+                          </span>
+                        </div>
+                        <input type="search" class="form-control form-control-dark" placeholder="Search" aria-label="Search app">
+                      </div>
+                    </form>
+                    <div class="dropdown mx-lg-2">
+                      <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="newContentButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Add New
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Team</a>
+                        <a class="dropdown-item" href="#">Project</a>
+                        <a class="dropdown-item" href="#">Task</a>
+                      </div>
+                    </div>
+                    <div class="d-none d-lg-block">
+                      <div class="dropdown">
+                        <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a href="nav-side-user.html" class="dropdown-item">Profile</a>
+                          <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
+                          <a href="#" class="dropdown-item">Log Out</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+  &lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
+  &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+    &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+
+  &lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+    &lt;ul class="navbar-nav mr-auto"&gt;
+      &lt;li class="nav-item active"&gt;
+        &lt;a class="nav-link" href="#"&gt;Home &lt;span class="sr-only"&gt;(current)&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link" href="#"&gt;Link&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item dropdown"&gt;
+        &lt;a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+          Dropdown
+        &lt;/a&gt;
+        &lt;div class="dropdown-menu"&gt;
+          &lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;
+          &lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;
+          &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+          &lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="nav-item"&gt;
+        &lt;a class="nav-link disabled" href="#"&gt;Disabled&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;form class="form-inline my-2 my-lg-0"&gt;
+      &lt;input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"&gt;
+      &lt;button class="btn btn-outline-success my-2 my-sm-0" type="submit"&gt;Search&lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Navbar component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/navbar">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="progress-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Progress</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default progress bar markup. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <div class="progress mb-3">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="progress"&gt;
+  &lt;div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Progress component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/progress">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="toasts-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Toasts</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default toasts. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <button id="show-toast-1" class="btn btn-primary">Show Toast</button>
+              <div id="toast-1" class="toast" role="alert" data-delay="5000">
+                <div class="toast-header">
+                  <img src="assets/img/avatar-male-3.jpg" class="avatar mr-2 avatar-sm" alt="Avatar image for male 5">
+                  <strong class="mr-auto">Toast Message 1</strong>
+                  <small>Just now</small>
+                  <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="toast-body">
+                  Hello, world! This toast will disappear in 5 seconds.
+                </div>
+              </div>
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;div class="toast" role="alert" aria-live="assertive" aria-atomic="true"&gt;
+  &lt;div class="toast-header"&gt;
+    &lt;img src="..." class="rounded mr-2" alt="..."&gt;
+    &lt;strong class="mr-auto"&gt;Bootstrap&lt;/strong&gt;
+    &lt;small&gt;11 mins ago&lt;/small&gt;
+    &lt;button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"&gt;
+      &lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class="toast-body"&gt;
+    Hello, world! This is a toast message.
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Toasts component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/toasts">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="tooltips-modal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Tooltips</h5>
+            <button type="button" class="close btn btn-round" data-dismiss="modal" aria-label="Close">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
+          <!--end of modal head-->
+          <div class="modal-body">
+            <div>
+              <p class="lead">A brief example of Bootstrap's default tooltips. See the Bootstrap Documentation for a more detailed reference.
+              </p>
+
+            </div>
+
+            <div class="component-demo">
+              <img alt="Image" src="assets/img/avatar-female-2.jpg" class="avatar avatar-lg" data-title="Peggy Brown" data-toggle="tooltip" />
+            </div>
+
+            <div class="component-snippet">
+              <h5>Markup</h5>
+              <pre><code class="language-html">&lt;img alt="Image" src="assets/img/avatar-female-2.jpg" class="avatar avatar-lg" data-title="Peggy Brown" data-toggle="tooltip" /&gt;</code></pre>
+            </div>
+
+            <div class="component-classes mt-3">
+              <p>For a detailed specification of the Tooltips component including all classes and features please see the official <a target="_blank" href="http://getbootstrap.com/docs/4.3/components/tooltips">Bootstrap documentation reference</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- Autosize - resizes textarea inputs as user types -->
+    <script type="text/javascript" src="assets/js/autosize.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Prism - displays formatted code boxes -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- Shopify Draggable - drag, drop and sort items on page -->
+    <script type="text/javascript" src="assets/js/draggable.bundle.legacy.js"></script>
+    <script type="text/javascript" src="assets/js/swap-animation.js"></script>
+    <!-- Dropzone - drag and drop files onto the page for uploading -->
+    <script type="text/javascript" src="assets/js/dropzone.min.js"></script>
+    <!-- List.js - filter list elements -->
+    <script type="text/javascript" src="assets/js/list.min.js"></script>
+
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+
+    <!-- This appears in the demo only - demonstrates different layouts -->
+    <style type="text/css">
+      .layout-switcher{ position: fixed; bottom: 0; left: 50%; transform: translateX(-50%) translateY(73px); color: #fff; transition: all .35s ease; background: #343a40; border-radius: .25rem .25rem 0 0; padding: .75rem; z-index: 999; }
+            .layout-switcher:not(:hover){ opacity: .95; }
+            .layout-switcher:not(:focus){ cursor: pointer; }
+            .layout-switcher-head{ font-size: .75rem; font-weight: 600; text-transform: uppercase; }
+            .layout-switcher-head i{ font-size: 1.25rem; transition: all .35s ease; }
+            .layout-switcher-body{ transition: all .55s ease; opacity: 0; padding-top: .75rem; transform: translateY(24px); text-align: center; }
+            .layout-switcher:focus{ opacity: 1; outline: none; transform: translateX(-50%) translateY(0); }
+            .layout-switcher:focus .layout-switcher-head i{ transform: rotateZ(180deg); opacity: 0; }
+            .layout-switcher:focus .layout-switcher-body{ opacity: 1; transform: translateY(0); }
+            .layout-switcher-option{ width: 72px; padding: .25rem; border: 2px solid rgba(255,255,255,0); display: inline-block; border-radius: 4px; transition: all .35s ease; }
+            .layout-switcher-option.active{ border-color: #007bff; }
+            .layout-switcher-icon{ width: 100%; border-radius: 4px; }
+            .layout-switcher-body:hover .layout-switcher-option:not(:hover){ opacity: .5; transform: scale(0.9); }
+            @media all and (max-width: 990px){ .layout-switcher{ min-width: 250px; } }
+            @media all and (max-width: 767px){ .layout-switcher{ display: none; } }
+    </style>
+    <div class="layout-switcher" tabindex="1">
+      <div class="layout-switcher-head d-flex justify-content-between">
+        <span>Select Layout</span>
+        <i class="material-icons">arrow_drop_up</i>
+      </div>
+      <div class="layout-switcher-body">
+
+      </div>
+    </div>
+
+    <!-- This appears only on this page to demonstrate toast functionality -->
+    <script type="text/javascript">
+      $(function(){
+        $('#show-toast-1').on("click", function () {
+          $('#toast-1').toast('show');
+        });
+      });
+    </script>
+  </body>
+
+
+<!-- Mirrored from pipeline.mediumra.re/components-bootstrap.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Jan 2023 14:24:20 GMT -->
+</html>
